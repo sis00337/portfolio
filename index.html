@@ -67,7 +67,7 @@
       <h2 class="mb-5">
         <em>I'm a Software Developer</em>
       </h2>
-      
+
       <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about">About Me</a>
     </div>
     <div class="overlay"></div>
@@ -85,7 +85,7 @@
           <p class="lead mb-5">As a person who thinks that life is a continuation of learning,
             <br>I'm eager to learn new technologies and apply my knowledge to the real world. </p>
           <p class="lead mb-5">I dream that I can positively influence other people with my skills.
-            <br>To know me better, feel free to send a direct message at <a href="https://www.linkedin.com/in/mike-hwang-41421217a/" target="_blank">Linkedin</a> or email me at 
+            <br>To know me better, feel free to send a direct message at <a href="https://www.linkedin.com/in/mike-hwang-41421217a/" target="_blank">Linkedin</a> or email me at
             <a href="mailto:sis00337@gmail.com" target="_blank">sis00337@gmail.com</a> !
           </p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Education</a>
@@ -114,7 +114,7 @@
           <p class="text-faded mb-0">March, 2013 - June, 2018</p>
           <p class="text-faded mb-0"><i>Architectural Engineering</i></p>
           <p class="text-faded mb-0">Bachelor's Degree, GPA - 98%</p>
-            
+
             <!-- <i class="fas fa-heart"></i> -->
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -253,27 +253,55 @@
     </small>
   </div> -->
 
+
   <!-- Footer -->
   <footer class="footer text-center" id='contact'>
     <h2 class="mb-5">Contact Me</h2>
+    <ul class="list-inline mb-5">
+      <li class="list-inline-item">
+        <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/mike-hwang-41421217a/" target="_blank">
+          <i class="icon-social-linkedin"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="social-link rounded-circle text-white mr-3" href="mailto:sis00337@gmail.com" target="_blank">
+        &#9993;
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="social-link rounded-circle text-white" href="https://github.com/sis00337" target="_blank">
+          <i class="icon-social-github"></i>
+        </a>
+      </li>
+    </ul>
+    <div id="contact" class="map">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=233%20robson%20st&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          </iframe>
+        </div>
+        <style>
+        .mapouter {
+          position:relative;
+          text-align:right;
+          height:1000px;
+
+          }
+        .map {
+          height:500px;
+        }
+        .gmap_canvas {
+          overflow:hidden;
+          background:none!important;
+          height:500px;
+          width: 50%;
+          margin: 0 auto;
+          }
+        </style>
+      </div>
+      </div>
     <div class="container">
-      <ul class="list-inline mb-5">
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/mike-hwang-41421217a/" target="_blank">
-            <i class="icon-social-linkedin"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="mailto:sis00337@gmail.com" target="_blank">
-          &#9993;
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="https://github.com/sis00337" target="_blank">
-            <i class="icon-social-github"></i>
-          </a>
-        </li>
-      </ul>
+
       <p class="text-muted small mb-0">Copyright &copy; MinSooHwang 2020</p>
     </div>
   </footer>
@@ -295,15 +323,15 @@
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://www.cssscript.com/demo/simple-typewriter-effect-pure-javascript-typewriterjs/typewriter.js"></script>
- 
+
   <script>
- 
+
   var typing = document.querySelector('.mb-5 em');
-  
+
   var typewriter = new Typewriter(typing, {
       loop: true
   });
-  
+
   typewriter
       .typeString("I'm a Software Developer")
       .pauseFor(1000)
