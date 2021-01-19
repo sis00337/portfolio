@@ -391,18 +391,18 @@ display: block;
     letter-spacing: 2px;
 }
 
-.blackBox .skillBox:nth-child(1) {
-    margin-left: 25px;
+.blackBox .skillBox:first-child {
+    margin-left: 55px;
 }
 
 .blackBox .skillBox:last-child {
-    width: 18%
+    width: 16%
 }
 
 .skillBox {
     box-sizing: border-box;
     width: 20%;
-    margin: 20px 0;
+    margin: 60px 0;
     float: left;
 }
 
@@ -413,7 +413,7 @@ display: block;
     padding: 0;
     font-weight: bold;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .skillBox ul {
@@ -422,7 +422,7 @@ display: block;
 
 .skillBox li {
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     list-style: none;
     margin-bottom: 15px;
