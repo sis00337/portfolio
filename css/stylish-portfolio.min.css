@@ -380,6 +380,7 @@ display: block;
     background-color: #333;
     box-sizing: border-box;
     box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    height: 83%;
 }
 
 .center h1 {
@@ -390,20 +391,41 @@ display: block;
     letter-spacing: 2px;
 }
 
+.blackBox .skillBox:nth-child(1) {
+    margin-left: 25px;
+}
+
+.blackBox .skillBox:last-child {
+    width: 18%
+}
+
 .skillBox {
     box-sizing: border-box;
-    width: 100%;
+    width: 20%;
     margin: 20px 0;
+    float: left;
 }
 
 .skillBox p {
-    color: #fff;
+    color: #0fffb7;
     text-transform: uppercase;
     margin: 0 0 10px;
     padding: 0;
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 20px;
+}
+
+.skillBox ul {
+    padding: 0;
+}
+
+.skillBox li {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 15px;
 }
 
 .skillBox p:nth-child(2) {
@@ -415,7 +437,6 @@ display: block;
     background-color: #262626;
     padding: 4px;
     box-sizing: border-box;
-    border: 1px solid #0fffb7;
     border-radius: 2px;
 }
 .skill_level {
@@ -426,4 +447,9 @@ display: block;
 
 .btn-dark, .btn-primary {
     font-size: 21px;
+}
+
+.blackBox {
+    background-color: #262626;
+    height: 100%;
 }
